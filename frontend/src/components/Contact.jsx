@@ -59,15 +59,6 @@ const Contact = () => {
 
         <div className="banner">
           <div className="item">
-            <iframe
-              src="https://maps.app.goo.gl/g3zxfExsF5GeDGR26"
-              style={{ border: 0, width: "100%", height: "450px" }}
-              allowFullScreen={true}
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </div>
-
-          <div className="item">
             <form onSubmit={handleSendMessage}>
               <h2>CONTACT</h2>
               <div>
